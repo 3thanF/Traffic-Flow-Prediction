@@ -9,13 +9,13 @@ def run_gradient_descent(X,y,iterations=1000, alpha = 1e-6):
     initial_w = np.zeros(n)
     initial_b = 0
     # run gradient descent
-    w_out, b_out, hist_out = gradient_descent_houses(X ,y, initial_w, initial_b,
+    w_out, b_out, hist_out = gradient_descent(X ,y, initial_w, initial_b,
                                                compute_cost, compute_gradient_matrix, alpha, iterations)
     print(f"w,b found by gradient descent: w: {w_out}, b: {b_out:0.2f}")
     
     return(w_out, b_out, hist_out)
 
-def gradient_descent_houses(X, y, w_in, b_in, cost_function, gradient_function, alpha, num_iters): 
+def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, num_iters): 
     """
     Performs batch gradient descent to learn theta. Updates theta by taking 
     num_iters gradient steps with learning rate alpha
