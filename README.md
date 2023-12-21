@@ -14,7 +14,7 @@ This project is focused on using a Polynomial Regression Model to accurately pre
 ## How to Use this Project
 1. Ensure you have Python, NumPy, Matplotlib, and Jupyter Notebook installed.
 2. Clone or download this repository to your local machine.
-3. Open the provided Jupyter Notebook (`TrafficFlowPrediction.ipynb`) in your Jupyter environment to start exploring the data and the model.
+3. Open the provided Jupyter Notebook (`Traffic-Flow-Prediction.ipynb`) in your Jupyter environment to start exploring the data and the model.
 
 ## Technologies Used
 - Python
